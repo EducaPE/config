@@ -7,8 +7,8 @@ administracion:
     jdbc-url: jdbc:mysql://localhost:3306/BD_ADMINISTRACION?useUnicode=yes&characterEncoding=utf8
     url: jdbc:mysql://localhost:3306/BD_ADMINISTRACION?useUnicode=yes&amp;characterEncoding=utf8
     driverClassName: com.mysql.jdbc.Driver
-    username: root
-    password: Peru123.
+    username: ${dbusername}
+    password: ${dbpassword}
     testWhileIdle: true
     timeBetweenEvictionRunsMillis: 60000
     validationQuery: SELECT 1
