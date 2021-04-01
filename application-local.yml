@@ -4,8 +4,8 @@ administracion:
       auto: none
     dialect: org.hibernate.dialect.MySQLDialect
   datasource:
-    jdbc-url: jdbc:mysql://localhost:3306/BD_ADMINISTRACION?useUnicode=yes&characterEncoding=utf8
-    url: jdbc:mysql://localhost:3306/BD_ADMINISTRACION?useUnicode=yes&amp;characterEncoding=utf8
+    jdbc-url: jdbc:mysql://localhost:3306/BD_ADMINISTRACION?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/BD_ADMINISTRACION?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     driverClassName: com.mysql.jdbc.Driver
     username: ${dbusername}
     password: ${dbpassword}
